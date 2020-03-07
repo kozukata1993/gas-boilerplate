@@ -5,7 +5,7 @@ module.exports = {
   mode: "development",
   devtool: "none",
   entry: {
-    app: "./src/app.js"
+    app: "./src/index.js"
   },
   output: {
     filename: "[name].js"

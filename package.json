@@ -4,6 +4,9 @@
   "repository": "https://github.com/kozukata1993/gas-webpack-boilerplate.git",
   "author": "kozukata1993",
   "license": "MIT",
+  "scripts": {
+    "build": "rm ./dist/*.js && npx webpack"
+  },
   "devDependencies": {
     "gas-webpack-plugin": "^1.0.2",
     "webpack": "^4.42.0",
