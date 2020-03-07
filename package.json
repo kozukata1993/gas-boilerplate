@@ -5,7 +5,7 @@
   "author": "kozukata1993",
   "license": "MIT",
   "scripts": {
-    "build": "rm ./dist/*.js && npx webpack"
+    "build": "npx webpack && clasp push"
   },
   "devDependencies": {
     "gas-webpack-plugin": "^1.0.2",
