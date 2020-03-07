@@ -1,6 +1,6 @@
 import { sayHello } from "./sayHello";
 
-declare let global: any;
+declare const global: any;
 
 global.myFunction = sayHello("TypeScript");
 global.otherFunction = (): void => {

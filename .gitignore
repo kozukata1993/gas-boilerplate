@@ -165,7 +165,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-
 .clasp.json
 
-/dist
