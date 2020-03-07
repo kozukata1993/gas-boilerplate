@@ -5,6 +5,7 @@
   "author": "kozukata1993",
   "license": "MIT",
   "devDependencies": {
+    "gas-webpack-plugin": "^1.0.2",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   }

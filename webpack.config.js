@@ -1,4 +1,5 @@
 const path = require("path");
+const GasPlugin = require("gas-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -7,7 +8,7 @@ module.exports = {
     app: "./src/app.js"
   },
   output: {
-    path: path.join(__dirname, "public/js"),
     filename: "[name].js"
-  }
+  },
+  plugins: [new GasPlugin()]
 };
