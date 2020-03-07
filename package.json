@@ -1,9 +1,8 @@
 {
   "name": "gas-webpack-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/kozukata1993/gas-webpack-boilerplate.git",
-  "author": "kento <kozukata1993@gmail.com>",
+  "author": "kozukata1993",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.42.0",
