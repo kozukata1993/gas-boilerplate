@@ -8,7 +8,10 @@
     "build": "npx webpack && clasp push"
   },
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.10",
     "gas-webpack-plugin": "^1.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   }

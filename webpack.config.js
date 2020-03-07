@@ -5,10 +5,22 @@ module.exports = {
   mode: "development",
   devtool: "none",
   entry: {
-    app: "./src/index.js"
+    app: "./src/index.ts"
   },
   output: {
     filename: "[name].js"
   },
-  plugins: [new GasPlugin()]
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: ["ts-loader"]
+      }
+    ]
+  },
+  plugins: [new GasPlugin()],
+  resolve: {
+    extensions: [".ts"]
+  }
 };
