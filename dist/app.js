@@ -131,7 +131,7 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _sayHello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sayHello */ "./src/sayHello.ts");
 
-global.myFunction = Object(_sayHello__WEBPACK_IMPORTED_MODULE_0__["sayHello"])("TypeScript");
+global.myFunction = Object(_sayHello__WEBPACK_IMPORTED_MODULE_0__["sayHello"])("ESLint");
 global.otherFunction = () => {
     Logger.log("Other function");
 };

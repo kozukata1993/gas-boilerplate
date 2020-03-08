@@ -8,6 +8,7 @@ module.exports = {
     app: "./src/index.ts"
   },
   output: {
+    path: path.resolve(__dirname, "dist"),
     filename: "[name].js"
   },
   module: {
@@ -15,7 +16,13 @@ module.exports = {
       {
         test: /\.ts$/,
         exclude: /node_modules/,
-        use: ["ts-loader"]
+        loader: "ts-loader"
+      },
+      {
+        enforce: "pre",
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
       }
     ]
   },

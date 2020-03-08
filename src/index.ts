@@ -1,8 +1,6 @@
 import { sayHello } from "./sayHello";
 
-declare const global: any;
-
-global.myFunction = sayHello("TypeScript");
+global.myFunction = sayHello("ESLint");
 global.otherFunction = (): void => {
   Logger.log("Other function");
 };
