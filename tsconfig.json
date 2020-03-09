@@ -3,7 +3,8 @@
     "sourceMap": true,
     "target": "es2015",
     "module": "es2015",
-    "typeRoots": ["./node_modules/@types/", "./src/typings"]
+    "typeRoots": ["./node_modules/@types/", "./src/typings"],
+    "esModuleInterop": true
   },
   "include": ["src/**/*.ts"]
 }

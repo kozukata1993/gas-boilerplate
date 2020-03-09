@@ -1,6 +1,9 @@
-import { sayHello } from "./sayHello";
+import { say } from "./say";
 
-global.myFunction = sayHello("ESLint");
+global.myFunction = () => {
+  say("Welcome Jest!");
+};
+
 global.otherFunction = (): void => {
   Logger.log("Other function");
 };

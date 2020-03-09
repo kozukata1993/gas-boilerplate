@@ -129,9 +129,11 @@ module.exports = g;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _sayHello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sayHello */ "./src/sayHello.ts");
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _say__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./say */ "./src/say.ts");
 
-global.myFunction = Object(_sayHello__WEBPACK_IMPORTED_MODULE_0__["sayHello"])("ESLint");
+global.myFunction = () => {
+    Object(_say__WEBPACK_IMPORTED_MODULE_0__["say"])("Welcome Jest!");
+};
 global.otherFunction = () => {
     Logger.log("Other function");
 };
@@ -140,17 +142,17 @@ global.otherFunction = () => {
 
 /***/ }),
 
-/***/ "./src/sayHello.ts":
-/*!*************************!*\
-  !*** ./src/sayHello.ts ***!
-  \*************************/
-/*! exports provided: sayHello */
+/***/ "./src/say.ts":
+/*!********************!*\
+  !*** ./src/say.ts ***!
+  \********************/
+/*! exports provided: say */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sayHello", function() { return sayHello; });
-const sayHello = (str) => {
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "say", function() { return say; });
+const say = (str) => {
     Logger.log(str);
 };
 
