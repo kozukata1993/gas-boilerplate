@@ -28,6 +28,6 @@ module.exports = {
   },
   plugins: [new GasPlugin()],
   resolve: {
-    extensions: [".ts"],
+    extensions: [".ts", ".js"],
   },
 };
