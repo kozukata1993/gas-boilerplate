@@ -2,7 +2,7 @@ import { say } from "./say";
 import { runSample } from "./chunk";
 
 global.myFunction = () => {
-  say("Welcome Jest!");
+  say("Name is changed.");
 };
 
 global.otherFunction = (): void => {

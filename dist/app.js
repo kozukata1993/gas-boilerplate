@@ -17305,7 +17305,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 global.myFunction = () => {
-    Object(_say__WEBPACK_IMPORTED_MODULE_0__["say"])("Welcome Jest!");
+    Object(_say__WEBPACK_IMPORTED_MODULE_0__["say"])("Name is changed.");
 };
 global.otherFunction = () => {
     Logger.log("Other function");
