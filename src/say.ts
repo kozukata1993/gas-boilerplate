@@ -1,3 +1,3 @@
-export const say = (str: string): void => {
-  Logger.log(str);
+export const say = (str: string): string => {
+  return str;
 };

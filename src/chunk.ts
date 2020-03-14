@@ -1,5 +1,5 @@
 import _ from "lodash";
 
-export const runSample = () => {
-  Logger.log(_.chunk(["a", "b", "c", "d", "e"], 2));
+export const runSample = (): string[] => {
+  return _.chunk(["a", "b", "c", "d", "e"], 2);
 };
