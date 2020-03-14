@@ -17285,7 +17285,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 
 const runSample = () => {
-    Logger.log(lodash__WEBPACK_IMPORTED_MODULE_0___default.a.chunk(["a", "b", "c", "d", "e"], 2));
+    return lodash__WEBPACK_IMPORTED_MODULE_0___default.a.chunk(["a", "b", "c", "d", "e"], 2);
 };
 
 
@@ -17305,7 +17305,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 global.myFunction = () => {
-    Object(_say__WEBPACK_IMPORTED_MODULE_0__["say"])("Name is changed.");
+    Logger.log(Object(_say__WEBPACK_IMPORTED_MODULE_0__["say"])("Name is changed."));
 };
 global.otherFunction = () => {
     Logger.log("Other function");
@@ -17329,7 +17329,7 @@ global.testLodash = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "say", function() { return say; });
 const say = (str) => {
-    Logger.log(str);
+    return str;
 };
 
 
